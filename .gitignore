@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model outputs and local artifacts
+cnn_outputs/
+*.keras
+*.h5
+*.log
+
+# Large datasets
+Python程序设计大作业数据集/data/raw/
+Python程序设计大作业数据集/data/processed/
+Python程序设计大作业数据集/data/raw.zip
+
+# Temporary extracted text files created during local reading
+Python人工智能程序设计实践项目任务书.txt
+中期报告 (1).txt
+手写字母识别选题报告.txt
+
+# Notebook checkpoints
+.ipynb_checkpoints/
