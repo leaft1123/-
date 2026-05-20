@@ -10,7 +10,7 @@ venv/
 env/
 
 # Model outputs and local artifacts
-cnn_outputs/
+cnn_outputs_smoke/
 *.keras
 *.h5
 *.log
