@@ -11,8 +11,10 @@ env/
 
 # Model outputs and local artifacts
 cnn_outputs_smoke/
+torch_outputs_smoke/
 *.keras
 *.h5
+*.pt
 *.log
 
 # Large datasets

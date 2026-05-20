@@ -1,0 +1,11 @@
+accuracy: 0.937885
+top5_accuracy: 0.996635
+precision_macro: 0.939787
+recall_macro: 0.937885
+f1_macro: 0.937361
+precision_weighted: 0.939787
+recall_weighted: 0.937885
+f1_weighted: 0.937361
+rmse_label: 1.979729
+auc_macro_ovr: 0.998301
+auc_weighted_ovr: 0.998301
