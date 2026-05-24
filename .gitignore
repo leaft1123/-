@@ -9,23 +9,28 @@ __pycache__/
 venv/
 env/
 
-# Model outputs and local artifacts
-cnn_outputs_smoke/
-torch_outputs_smoke/
+# Model weights and local artifacts
 *.keras
 *.h5
 *.pt
 *.log
 
+# Smoke or temporary outputs
+*smoke*/
+
 # Large datasets
-Python程序设计大作业数据集/data/raw/
-Python程序设计大作业数据集/data/processed/
-Python程序设计大作业数据集/data/raw.zip
+dataset/raw/
+dataset/processed/
+dataset/raw.zip
+dataset/*/data/raw/
+dataset/*/data/processed/
+dataset/*/data/raw.zip
+*/data/raw/
+*/data/processed/
+*/data/raw.zip
 
 # Temporary extracted text files created during local reading
-Python人工智能程序设计实践项目任务书.txt
-中期报告 (1).txt
-手写字母识别选题报告.txt
+documents_and_reference/task_and_reports/*.txt
 
 # Notebook checkpoints
 .ipynb_checkpoints/
